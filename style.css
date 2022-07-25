@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Mono:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+:root{
+    --primary-font: "Poppins", sans-serif;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: var(--primary-font);
+}
+
+header{
+    width: 100%;
+    height: 79px;
+    background-color: white;
+    position: fixed;
+    top: 0px;
+    display: grid;
+    place-items: center;
+}
+
+header section{
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header section .beka1 a{
+    font-size: 29px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #aad6c1;
+}
+
+header section .beka2 a{
+    font-size: 65px;
+    font-weight: 500;
+    text-decoration: none;
+    font-style: italic;
+    color: #000000;
+}
+
+header section .beka3 ul{
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #aad6c1; 
+    list-style: none;
+}
+header nav ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: fit-content;
+    gap: 50px;
+}
+
+header nav ul li a{
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: black; 
+    font-style: italic;
+}
+
+header nav ul li a:hover{
+    color: #aad6c1;
+}
+
+main{
+    margin-top: 70px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+} 
+
+main section {
+    width: 100%;
+}
+
+main .banner{
+    height: 860px;
+    background-image: url(https://static.wixstatic.com/media/27af89_bba45519f51f4d1591a75cd483a2f499~mv2.jpg/v1/fill/w_860,h_493,al_c,q_85,enc_auto/27af89_bba45519f51f4d1591a75cd483a2f499~mv2.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment: fixed;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
